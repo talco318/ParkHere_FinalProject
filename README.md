@@ -1,4 +1,4 @@
-# FinalProject
+# Final Project - ParkHere
 In our project, we will present a solution to the problem of finding parking by combining two algorithms:
 
 - An algorithm that identifies a free parking lot by image - With YOLO V5
