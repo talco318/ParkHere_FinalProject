@@ -70,3 +70,14 @@ def clean_folder():
             # print(f"Deleted file: {file}")
         except Exception as e:
             print(f"Failed to delete file: {file}. Error: {e}")
+
+    folder_path = "yolov5-master/runs/detect/exp/"  # Replace with your desired folder path
+    # Get all files in the folder using glob
+    files = glob.glob(os.path.join(folder_path, ".jpg"))
+    # Loop through each file and delete it
+    for file in files:
+        try:
+            os.remove(file)  # Delete the file
+            # print(f"Deleted file: {file}")
+        except Exception as e:
+            print(f"Failed to delete file: {file}. Error: {e}")
