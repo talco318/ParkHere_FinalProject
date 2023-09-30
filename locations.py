@@ -5,9 +5,7 @@ import csv
 import json
 import datetime
 
-import APIs
-
-Google_API_KEY = APIs.Google_API_KEY
+YOUR_API_KEY = "AIzaSyA-0jt7Ap1VqJEe3YGSGCULVsIsxHSpMLY"
 
 
 class Location:
@@ -56,7 +54,7 @@ def get_address(location: Location) -> str | None:
     """
     # Define the API endpoint and parameters
     endpoint = "https://maps.googleapis.com/maps/api/geocode/json"
-    params = {"latlng": f"{location.latitude},{location.longitude}", "key": Google_API_KEY}
+    params = {"latlng": f"{location.latitude},{location.longitude}", "key": YOUR_API_KEY}
 
     # Send a GET request to the API endpoint
     response = requests.get(endpoint, params=params)
@@ -76,7 +74,7 @@ def get_lat_long(location: str) -> tuple | None:
     url = "https://maps.googleapis.com/maps/api/geocode/json"
     params = {
         "address": location,
-        "key": Google_API_KEY
+        "key": YOUR_API_KEY
     }
 
     # Send GET request to the API endpoint with the parameters
@@ -114,7 +112,7 @@ def get_travel_time(origin: str, destination: str) -> float:
     params = {
         "origin": origin,
         "destination": destination,
-        "key": Google_API_KEY
+        "key": YOUR_API_KEY
     }
 
     # Send GET request to the API endpoint with the parameters
