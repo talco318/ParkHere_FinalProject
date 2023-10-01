@@ -13,4 +13,5 @@ By combining these two algorithms, we will be able to locate the location of a f
 The output of the project will be a destination address where the relevant parking was found after the system's calculation.
 
 Example of using the telegram bot:
+
 ![image](https://github.com/talco318/ParkHere_FinalProject/assets/12784722/e9765717-0946-46b5-9a82-c5aab04e3018)
