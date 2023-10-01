@@ -25,8 +25,8 @@ def manager(address: str):
 
       :param: address: The address for which to find the best parking spot.
       :type: address: str
-      :return: address_to_parking: The best parking spot.
-      :rtype: address_to_parking: str
+      :return: None
+      :rtype: None
       """
     lat, lng = loc.get_lat_long(address)
     dest_loc = Location(lat, lng)
@@ -50,8 +50,6 @@ def manager(address: str):
     print("--------------------------------------------------------------------------")
     print("The best parking for you available in", loc.get_address(best_snap.location))
     print("--------------------------------------------------------------------------")
-    return loc.get_address(best_snap.location)
-
 
 
 
@@ -176,7 +174,7 @@ def download_image(image_name):
     bucket = storage.bucket()
     print("searching the name ", image_name, " in the server")
     blob = bucket.get_blob(image_name)
-    local_folder_path = 'relevant_parking_slots'
+    local_folder_path = 'relevant_parking_slots'  # Replace with the path to your local folder
 
     blob.download_to_filename(os.path.join(local_folder_path, image_name))
 
