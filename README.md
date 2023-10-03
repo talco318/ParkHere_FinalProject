@@ -30,7 +30,7 @@ Why This Project?
 ParkHere combines my interests in computer vision and bots to solve the daily frustration of finding parking. With this bot, drivers can spend less time searching and reduce unnecessary circling.
 
 
-# Example of using the telegram bot:
+## Example of using the telegram bot:
 
 ![image](https://github.com/talco318/ParkHere_FinalProject/assets/12784722/d3557c93-65c9-48f2-ab22-6001bc08201e)
 
