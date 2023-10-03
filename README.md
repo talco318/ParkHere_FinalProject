@@ -32,7 +32,7 @@ ParkHere combines my interests in computer vision and bots to solve the daily fr
 
 # Example of using the telegram bot:
 
-![image](https://github.com/talco318/ParkHere_FinalProject/assets/12784722/e9765717-0946-46b5-9a82-c5aab04e3018)
+![image](https://github.com/talco318/ParkHere_FinalProject/assets/12784722/d3557c93-65c9-48f2-ab22-6001bc08201e)
 
 
 
