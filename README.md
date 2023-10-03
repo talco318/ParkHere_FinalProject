@@ -1,6 +1,6 @@
 
 
-# ParkHere Bot
+# ParkHere Bot - My Final Project
 ParkHere is a Telegram bot that helps drivers efficiently find parking using computer vision.
 
 ## Description:
